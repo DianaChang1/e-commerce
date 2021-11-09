@@ -1,0 +1,10 @@
+// 安裝fortawesome完整版 => npm install @fortawesome/fontawesome-free --save
+// 有時候會用到CSS偽元素做icon狀態變化，例如收合/顯示，必須搭配class顯示，較方便使用，
+// 缺點是使用者一開使會載入肥肥的字型檔案，增加對伺服器端的存取
+// @import '~@fortawesome/fontawesome-free/scss/fontawesome';
+// @import '_variables';
+// @import '~@fortawesome/fontawesome-free/scss/solid';
+
+@import '_variables';
+@import '_mixins';
+@import '_components';
